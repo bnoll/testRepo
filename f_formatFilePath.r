@@ -15,6 +15,5 @@ path <- function() {
 	path <- gsub('\\\\','/',x)
 	writeClipboard(paste(path,collapse = " "))
 	cat("Here\'s your de-windowsfied path. (It\'s also on the clipboard.)\n\n",path,"\n\n")
-	# Test comment
 	}
 	
